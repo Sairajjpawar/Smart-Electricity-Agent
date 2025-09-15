@@ -17,7 +17,7 @@ import time # For simulating delay in GPS fetch
 # Note: Even with a valid key, OpenWeatherMap's free tier does not provide
 # extensive historical weather data or solar irradiance data directly.
 # The script uses simulated seasonal weather for predictions.
-OPENWEATHER_API_KEY = "d3ed78d4ddce86002de08e4b37f585b9"
+OPENWEATHER_API_KEY = "YourAPI"
 GEOCODING_URL = "http://api.openweathermap.org/geo/1.0/direct" # To get lat/lon from city name
 
 # --- Utility Functions for User Input ---
@@ -363,3 +363,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
